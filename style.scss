@@ -1,4 +1,4 @@
-$font: "helvetica neue", sans-serif;
+$font: "Arial", sans-serif;
 
 *{
     margin: 0;
@@ -9,21 +9,24 @@ $font: "helvetica neue", sans-serif;
 }
 
 body{
-    background-color: #22383C;
+    background-image: url(/img/bg_white.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     width: auto;
     height: 100%;
-    justify-content: center;
-    align-items: center;
+
+
+    header{
+        margin: 2rem;
+    }
     
     .card{
         cursor: pointer;
-        background-color:rgb(245, 242, 237);
-        border: 5px solid goldenrod;
-        outline:solid goldenrod;
-        outline-offset:-10px; 
+        background-color:rgba(0, 0, 0, .4);
+        border: none;
         width: 270px;
         text-align: center;
         height: auto;

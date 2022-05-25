@@ -1,7 +1,7 @@
 import {cardBody} from './cardBody.js';
 
 let code = "";//+=does not replace the card (like the = sign does), but adds a card
-const card = document.querySelector("body");
+const card = document.querySelector(".cards");
 
 cardBody.forEach(function (result) {
 ( code += `
