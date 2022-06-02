@@ -1,10 +1,10 @@
 export const cardBody = [
-    {
-    header: '',
-    title: '',
-    text: '',
-    genre: '',
-    picture: '',
-    card: ''
-    },
+  {
+    header: "",
+    title: "",
+    text: "",
+    genre: "",
+    picture: "",
+    card: "",
+  },
 ];
